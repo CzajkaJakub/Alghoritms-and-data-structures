@@ -1,35 +1,54 @@
-# Alghoritms-and-data-structures
-Projects which was made for alghoritms and data structures at university. 
+# Algorithms-and-data-structures
+## Projects which was made for algorithms and data structures subject at university. 
 
-- Sorting alghoritms - Project, which was made to examine differences between popular sorting alghoritms like amount of 
-  swaps and comparisons with some types of input data(sorting times)
-    - Shell Sort (Knuth) with BubbleSort
-    - Quick Sort
-    - Merge Sort
-    - Insertion Sort
-    - Heap Sort 
+### ***1.Sorting algorithms*** 
+Project, which was made to examine differences between popular sorting algorithms like amount of 
+swaps, comparisons and sorting times with some types of generated data input.
+- Shell Sort (with Knuth increments), numbers are sorted by BubbleSort.
+- Quick Sort
+- Merge Sort
+- Insertion Sort
+- Heap Sort 
     
-- Graphs alghoritms with fallbacks - The main goal of this project, was check that input graph has Hamiltonian cycle in undirected graph (by graph matrix)
-and in directed graph(list of consequents) and Eulerian cycle (on the same types of graphs and matrixes)
+### ***2.Graphs algorithms with fallbacks*** 
+The main goal of this project, was checked that input graph has Hamiltonian cycle in undirected graph (graph stored in graph matrix)
+and in directed graph(list of consequent) and Eulerian cycle (graph stored in the same types, graph matrix and list of consequent).
   
-- Graphs alghoritms - SProject, main goal of this, was implementation a grapfs which are typed in 2 types of matrixes and sort it topologicly:
-- adjective matrix and graph matrix - in the first one one's means there is connection between pair (num of column, num of poem) of vertices, in the secound one matrix is typed by special alghoritm.
-The program is checking a cycle of graph, if it exist, there is unable to topological sort. There are 2 types of sort
-  which are unable to take 2 types of graphs:
-  - Kahn alghoritm
-    - DFS alghoritm
-    
-- Data structures - Project, which was made to examine a some types of data structures like bst and avl trees.
-Main tasks which had to be implemented:
-    -find and type a ways to the biggest and smallest value in the tree
-    -delete an element in the tree by type a key
-    -type all elements of tree (in-order/pre-order and past-order with deleting elements)
-    -type a sub-tree from the element which is a input key
-    -balancing a tree
 
-- Backpack problem  - Project, which was made to examine a popular problem of backpack.
-Alghoritms which were used to solve this problem 
-- Brute force alghoritm - Very slow which checks every possibility of backpack
-- Greedy Algorithm - the fastest of this three but there is a hight possibility to get options which is not the best
-- Dynamic Programming Alghoritm - balanced alghoritm which give the best option. It is operationg on matrix 
+### ***3.Graphs algorithms***  
+Main goal of this project, was implementation a graphs which are stored in 2 types of matrixes and sort it topologically.
+At point of start, program checks a cycle of graph, if it exist, there is unable to topological sort, because you can move through graph indefinitely.
+
+#### Sorting graph take place by 2 types of sorting algorithms:
+
+- Kahn algorithm
+- DFS algorithm
+
+### Adjective matrix
+Data stored in this matrix, has a connections between pairs of vertices. For example if in directed graph V1 has connection to V2,
+in their places in matrix is typed (1 - in) and (-1 - out) from vertices.
+    
+### Graph matrix 
+Data in this type of matrix is saved by special algorithm.
+
+    
+### ***4.Data structures***
+Project, which was made to examine types of data structures:
+
+- bst tree
+- avl tree.
+
+Tasks which had to be implemented:
+- find and type ways to the biggest and smallest value in the tree.
+- delete an element in the tree by type a key.
+- type all elements of tree (in-order/pre-order and past-order with deleting elements).
+- type a sub-tree from the element which is input key.
+- balancing a tree.
+
+### ***5.Backpack problem***   
+Project, which was made to examine a popular problem of backpack.
+Algorithms which were used to solve this problem:
+- **Brute force algorithm** - Very slow which checks every possibility of backpack, but we have assurance that the output data is the best option.
+- **Greedy Algorithm** - Very fast but there is a high possibility to get options which is not the best, (we stop at point if we can't put next item into a backpack).
+- **Dynamic Programming Alghoritm** - Balanced algorithm which is fast and gives the best option. It is operating on matrix. 
     

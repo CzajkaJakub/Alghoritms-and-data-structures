@@ -1,17 +1,4 @@
-<<<<<<< HEAD
-Sorting alghoritms\.idea
-__pycache__/
-=======
 
-Sorting alghoritms/Sorts/__pycache__/
-Sorting alghoritms/Generator/__pycache__/
-Sorting alghoritms/ErrorHandling/__pycache__/
-Sorting alghoritms/venv
-.idea
 /.idea
 venv
 
-Backpack problem/Alghorithms/__pycache__/
-Backpack problem/ErrorHandling/__pycache__/
-Backpack problem/TestFileGenerator/__pycache__/
->>>>>>> 55802ff (backpack)
